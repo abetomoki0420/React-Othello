@@ -1,0 +1,64 @@
+.container{
+  display:flex;
+  height: 800px ;
+  width:1000px ;
+}
+
+.board{
+  height: 800px ;
+  width: 800px ;
+  font-size: 0px ;
+}
+
+.board-spot{
+  height:100px ;
+  width: 100px ;
+  background: rgb(214, 255, 195);
+  display:inline-block;
+  border: 1px solid rgb(11, 56, 0);
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.3s ;
+}
+.board-spot:hover{
+  opacity: 0.8 ;
+}
+
+.disc{
+  position: absolute;
+  height: 80% ;
+  width: 80% ;
+  border : 1px solid rgb(233, 233, 233) ;
+  border-radius: 50% ;
+  top:0 ;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto ;
+}
+
+.white-disc{
+  background: white;
+}
+
+.black-disc{
+  background: black;
+}
+
+.hidden{
+  display:none ;
+}
+
+.sidebar{
+  height: 800px ;
+  width: 200px ;
+  display:inline-block;
+}
+
+.display{
+  font-size:  20px ;
+  background: rgb(148, 233, 255);
+}
